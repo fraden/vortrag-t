@@ -1,40 +1,363 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <title>Lebenslauf und ausgewählte Projekte</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>Lebenslauf und ausgewählte Projekte</h2>
+                Dennis Frankenbach
+            </section>
+            <section data-auto-animate>
+                <h2>Interessen</h2>
+                <div class="r-stack">
+                    <img class="fragment" src="/assets/via-ferrata.jpeg" height="450">
+                    <img class="fragment" src="/assets/eBike.jpeg" height="450">
+                    <img class="fragment" src="/assets/games.jpeg" height="450">
+                </div>
+            </section>
+
+
+            <section data-auto-animate data-background-video="/assets/Steinkoepfle.m4v" data-background-video-loop data-background-video-muted data-background-opacity="0.4">
+                <h2 style="margin-top: 10px; color: white;">Interessen</h1>
+                    <div class="row">
+                        <div class="column">
+                            <img src="/assets/eBike.jpeg" height="140">
+                            <img src="/assets/rc-plane.jpg" height="140">
+                        </div>
+                        <div class="column">
+                            <img src="/assets/via-ferrata.jpeg" height="140">
+                            <img src="/assets/sony-alpha.jpeg" height="140">
+
+                        </div>
+                        <div class="column">
+                            <img src="/assets/games.jpeg" height="140">
+                            <img src="/assets/dancing.png" height="140">
+                        </div>
+                    </div>
+            </section>
+            <section data-background-iframe="https://ebike.dennisfrankenbach.me" data-background-interactive>
+            </section>
+
+            <section data-auto-animate style="height: 600px">
+                <h2 data-id="title" style="margin-top: 0px;">Studium</h2>
+                <h3 style="opacity: 0.3; font-size: 22px;">Meine Motivation</h3>
+                <div data-id="1 " style="background: white; position: absolute; top: 150px; left: 10%; width: 60px; height: 60px;"></div>
+                <div data-id="text_kind" style="margin-top: 0px; margin-left: 360;"> Als Kind sehr viel experimentiert...</div>
+                <!--<div data-id=" 2 " style="background: white; position: absolute; top: 270px; left: 16%; width: 60px; height: 60px; "></div>
+                <div data-id="3 " style="background: white; position: absolute; top: 390px; left: 16%; width: 60px; height: 60px; "></div>
+                <div data-id="4 " style="background: white; position: absolute; top: 510px; left: 16%; width: 60px; height: 60px; "></div>-->
+                <div data-id="img_1 " style="position: absolute; top: 260px; left: 25%; height: 150px; ">
+                    <img src="/assets/studium/gameboy.jpg " height="200 ">
+                </div>
+                <div data-id="img_2 " style="position: absolute; top: 260px; left: 55%; height: 150px; ">
+                    <img src="/assets/studium/radio.jpg " height="200 ">
+                </div>
+            </section>
+            <section data-auto-animate style="height: 600px">
+                <h2 data-id="title" style="margin-top: 0px;">Studium</h2>
+                <h3 style="opacity: 0.3; font-size: 22px;">Meine Motivation</h3>
+                <div data-id="1 " style="background: white; position: absolute; top: 150px; left: 10%; width: 60px; height: 60px;"></div>
+                <div data-id="text_kind" style="margin-top: 0px; margin-left: 360; "> Als Kind sehr viel experimentiert...</div>
+                <div data-id="2 " style="background: white; position: absolute; top: 270px; left: 10%; width: 60px; height: 60px; "></div>
+                <div data-id="text_elektronik" style="margin-top: 70px; margin-left: 360;"> Spaß mit Elektronik und Software...</div>
+                <!--<div data-id="3 " style="background: white; position: absolute; top: 390px; left: 16%; width: 60px; height: 60px; "></div>
+                <div data-id="4 " style="background: white; position: absolute; top: 510px; left: 16%; width: 60px; height: 60px; "></div>-->
+                <div style="position: absolute; top: 320px; left: 13%; height: 150px; ">
+                    <img src="/assets/studium/escooter_akku.png " height="140 ">
+                </div>
+                <div style="position: absolute; top: 320px; left: 42%; height: 150px; ">
+                    <img src="/assets/studium/escooter_display.jpg " height="140 ">
+                </div>
+                <div style="position: absolute; top: 320px; left: 65%; height: 150px; ">
+                    <img src="/assets/studium/escooter_platine.jpg " height="140 ">
+                </div>
+                <div style="position: absolute; top: 320px; left: 86%; height: 150px; ">
+                    <img src="/assets/studium/escooter_hall.jpg " height="140 ">
+                </div>
+            </section>
+            <section data-auto-animate style="height: 600px">
+                <h2 data-id="title" style="margin-top: 0px;">Studium</h2>
+                <h3 style="opacity: 0.3; font-size: 22px;">Meine Motivation</h3>
+                <div data-id="1 " style="background: white; position: absolute; top: 150px; left: 10%; width: 60px; height: 60px;"></div>
+                <div data-id="text_kind" style="margin-top: 0px; margin-left: 360;"> Als Kind sehr viel experimentiert...</div>
+                <div data-id="2 " style="background: white; position: absolute; top: 270px; left: 10%; width: 60px; height: 60px; "></div>
+                <div data-id="text_elektronik" style="margin-top: 70px; margin-left: 360;"> Spaß mit Elektronik und Software...</div>
+                <div data-id="3 " style="background: white; position: absolute; top: 390px; left: 10%; width: 60px; height: 60px; "></div>
+                <div data-id="text_mathematik" style="margin-top: 70px; margin-left: 360;  padding-left:60px;"> Leidenschaft: Mathematik und Rätsel...</div>
+                <!--<div data-id="4 " style="background: white; position: absolute; top: 510px; left: 16%; width: 60px; height: 60px; "></div>-->
+                <div style="position: absolute; top: 450px; left: 24%; height: 130px; ">
+                    <img src="/assets/studium/math.webp " height="140 ">
+                </div>
+            </section>
+            <section data-auto-animate style="height: 600px " data-background-color="rgb(70, 70, 255)">
+                <h2 data-id="title" style="margin-top: 0px;">Studium</h2>
+                <h3 style="opacity: 0.7; font-size: 40px; ">Elektro- und Informationstechnik</h3>
+                <img src="/assets/studium/kit.png" style="margin: -20px 0px 60px 0" height="80 ">
+                <br><br>
+                <div data-id="1 " style="background: black; position: absolute; bottom: 170px; left: 58%; width: 60px; height: 170px;"></div>
+                <div data-id="2 " style="background: black; position: absolute; bottom: 170px; left: 48%; width: 60px; height: 170px;"></div>
+                <div data-id="3 " style="background: black; position: absolute; bottom: 170px; left: 38%; width: 60px; height: 170px;"></div>
+                <div data-id="4 " style="background: rgb(27, 151, 131); position: absolute; bottom: 340px; left: 38%; width: 252px; height: 30px;"></div>
+            </section>
+            <section>
+                <section data-auto-animate data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+                    <h2 class="r-fit-text">Bachelorarbeit</h2>
+                </section>
+                <section data-auto-animate style="height: 600px " data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">Bachelorarbeit: Messplattform zur vergleichenden Untersuchung von UWB-Lokalisierungssystemen</h2>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">Distanzmessverfahren</h3>
+                    <table style="font-size: 25px;">
+                        <thead>
+                            <tr>
+                                <th> Two Way Time of Flight</th>
+                                <th>Time Difference of Arrival</th>
+                                <th>...</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="/assets/studium/bachelorarbeit/twtof.png " height="150 "></td>
+                                <td><img src="/assets/studium/bachelorarbeit/tdof.png" height="150 "></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">Messsysteme</h3>
+                    <table style="font-size: 25px;">
+                        <tbody>
+                            <tr>
+                                <td><img src="/assets/studium/bachelorarbeit/decawave.png " height="150 "><br>decaWave EVK1000</td>
+                                <td><img src="/assets/studium/bachelorarbeit/timedomain.png" height="150 "><br>TimeDomain PulsOn 410
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section data-auto-animate style="height: 600px " data-background-gradient="radial-gradient(#283b95, #17b2c3)">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">Bachelorarbeit: Messplattform zur vergleichenden Untersuchung von UWB-Lokalisierungssystemen</h2>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">Tätigkeiten</h3>
+                    <ul style="opacity: 0.85; font-size: 25px;">
+                        <li>Entwicklung einer Messplattform (Matlab-basierte GUI)</li>
+                        <li>
+                            Funktionserweiterung des Codes auf dem Mikrocontroller (Programmiersprache: C) und Implementierung von APIs
+                        </li>
+                        <li>
+                            Energie- und Leistungsanalysen der Messsysteme
+                            <br>
+                            <img src="/assets/studium/bachelorarbeit/leistungsmessung.png " height="150 ">
+                        </li>
+                        <li>
+                            Analysen der Ortungsgenauigkeit im Innenraum unter Sichtverbindung (LOS) und Nicht-Sichtverbindung (NLOS)
+                            <br>
+                            <img src="/assets/studium/bachelorarbeit/ortung_1.png " height="150 ">
+                            <img src="/assets/studium/bachelorarbeit/ortung_2.png " height="150 ">
+                        </li>
+                    </ul>
+
+                </section>
+            </section>
+            <section>
+                <section data-auto-animate data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <h2 class="r-fit-text">Masterarbeit</h2>
+                </section>
+                <section style="height: 600px " data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">Masterarbeit: Entwicklung eines modellbasierten Prädiktivreglers für AHC-Systeme</h2>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">Problembeschreibung</h3>
+                    <div data-id="moving">
+                        <video data-autoplay autoplay="true" loop="true" muted="true" width="500" src="/assets/studium/masterarbeit/Schiff_Bewegung.m4v"></video>
+                    </div>
+                </section>
+                <section style="height: 600px " data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">Masterarbeit: Entwicklung eines modellbasierten Prädiktivreglers für AHC-Systeme</h2>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">Problembeschreibung</h3>
+                    <div data-id="moving" style="transform:translate(0,50px);">
+                        <video data-autoplay autoplay="true" loop="true" muted="true" width="500" src="/assets/studium/masterarbeit/Schiff_still.m4v"></video>
+                    </div>
+                </section>
+                <section style="height: 600px " data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">Heave Compensation</h2>
+                    <h3 style="opacity: 0.85; font-size: 25px; ">
+                        Motivation
+                    </h3>
+
+                    <img width="200" src="/assets/studium/masterarbeit/crane.png">
+                    <img width="130" src="/assets/studium/masterarbeit/oil.png">
+                    <img width="200" src="/assets/studium/masterarbeit/waves.png">
+
+                    <ul style="font-size:22px;">
+                        <li>günstigeres Gesamtsystem</li>
+                        <li>bessere Kompensation der Wellenbewegung</li>
+                        <li>längere Lebensdauer der Komponenten durch weniger Belastung</li>
+                    </ul>
+                </section>
+                <section style="height: 600px " data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <img src="/assets/studium/masterarbeit/Regelungsstrategie.png">
+                </section>
+                <section style="height: 600px " data-background-color="rgb(70, 70, 255)" data-background-image="/assets/studium/masterarbeit/background.png">
+                    <img src="/assets/studium/masterarbeit/Modellbildung.png">
+                </section>
+            </section>
+            <section>
+                <section data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 class="r-fit-text">Bosch: Softwareentwicklung</h2>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 data-id="title_bachelorarbeit" style="margin-top: 0px; font-size: 30px;">
+                        Kooperatives Regeneratives Bremsen
+                    </h2>
+                    <h3 style="font-size: 25px; opacity:0.85">Bremsmomentenkoordination zwischen hydraulischem und elektrischem Bremsen</h3>
+                    <img width="400" src="/assets/Bosch/CRB.png">
+                    <ul style="font-size: 24px; ">
+                        <li>
+                            Ziel: Fahrer soll Blending nicht bemerken (Akustik, Pedalgefühl, Fahrzeugverzögerung)
+                        </li>
+                        <li>
+                            Systemverständnis
+                            <ul>
+                                <li>ESP-hevX (ESP for hybrid electric vehicle mit X-Bremshydraulik)</li>
+                                <li>Systemgrenzen des Elektromotors</li>
+                            </ul>
+                            <li>
+                                Requirements Engineering mit DOORS
+                            </li>
+                            <li>FuSi – ISO 26262</li>
+                        </li>
+                        <li><a href="https://patentimages.storage.googleapis.com/20/bd/cf/972db2dc143c9c/DE102018208167A1.pdf" target="_blank">Patent</a></li>
+                    </ul>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 style="margin-top: 0px; font-size: 30px;">
+                        Cloudbasierte Falschfahrerwarnung
+                    </h2>
+                    <!-- <img src="/assets/Bosch/Falschfahrerwarnung.png" width="300px"> -->
+                    <h3 style="font-size: 25px; opacity:0.85">Hotspotgenerator</h3>
+                    <h3 style="font-size: 20px; opacity:0.85">Automatische Erkennung von Autobahnauffahrten auf Basis von OpenStreetMap-Kartenmaterial</h3>
+                    <ul style="font-size: 24px; ">
+                        <li>Abfrage via (self-hosted) <a href="https://overpass-turbo.eu/" target="_blank">Overpass</a>
+                            <ul>
+                                <li>Beispiel für alle Autobahnauffahrten und Autobahnen:
+                                    <pre><code data-line-numbers>way["highway"~"(motorway|motorway_link)"]({{bbox}});
+			(._;>;);
+			out;
+									  </code></pre></li>
+                            </ul>
+                        </li>
+                        <li>Verarbeitung der Daten via GeoPandas</li>
+                        <li>Einbeziehung der Anfahrtswege + Umkreise</li>
+                        <li>Vereinfachung der Hotspots + eindeutige ID</li>
+                        <li><a href="https://geojson.io/" target="_blank">Hotspots</a> sind abrufbar über Public API</li>
+                        <li>Beschreibung der Funktionsweise im
+                            <a href="https://patentimages.storage.googleapis.com/4c/29/57/8042341b48f38c/DE102019218111A1.pdf" target="_blank">Patent</a></li>
+
+                    </ul>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 style="margin-top: 0px; font-size: 30px;">
+                        Cloudbasierte Falschfahrerwarnung
+                    </h2>
+                    <h3 style="font-size: 25px; opacity:0.85">Tripgenerator</h3>
+                    <img src="/assets/Bosch/Tripgenerator.png" width="350px"><br>
+                    <ul style="font-size: 24px; ">
+                        <li>
+                            Systemtest mittels simulierter Fahrten
+                        </li>
+
+                        <li>dynamische Geschwindigkeiten <a href="https://patentimages.storage.googleapis.com/01/f9/1b/abb5af18ce6b26/DE102020201313A1.pdf" target="_blank">Patent 1</a>, <a href="https://patentimages.storage.googleapis.com/f9/a5/a2/2e2217ea08a85b/DE102021200608A1.pdf"
+                                target="_blank">Patent 2</a> </li>
+                        <li>Erstellung von verrauschten Sensorikdaten (GPS, Beschleunigungen, Rotationen)</li>
+                        <li>Input: Hotspot, Output: Trips als Geojson</li>
+                        <li>Netzwerk-/ Routensuche mittels <a href="https://networkit.github.io/" target="_blank">NetworKit</a></li>
+                        <li>Filterung anhand von </li>
+                        <ul>
+                            <li>
+                                Straßentyp entlang der Route
+                            </li>
+                            <li>Falschfahrt/ keine Falschfahrt</li>
+                            <li>Kurvenradius -> ist die Route realistisch</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 style="margin-top: 0px; font-size: 30px;">
+                        Cloudbasierte Falschfahrerwarnung
+                    </h2>
+                    <h3 style="font-size: 25px; opacity:0.85">Lokalisierung mittels Partikelfilter (Sequentielle Monte-Carlo-Methode)</h3>
+                    <img src="/assets/Bosch/Falschfahrerwarnung.png" height="200px">
+                    <img src="/assets/Bosch/Partikelfilter.png" height="200px"><br>
+                    <ul style="font-size: 24px; ">
+                        <li>zur Zustandsschätzung nichtlinearer Systeme</li>
+                        <li>Orientierungsschätzung von Smartphones mit Quaternionen</li>
+                        <li>Auslegung auf hohe TP-Rate mit niedriger FP-Rate</li>
+                        <li>Arbeit mit MS-Azure, Docker, ADX, ...</li>
+                    </ul>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 style="margin-top: 0px; font-size: 30px;">
+                        Cloudbasierte Falschfahrerwarnung
+                    </h2>
+                    <h3 style="font-size: 25px; opacity:0.85">Weitere Themengebiete</h3>
+                    <ul style="font-size: 20px;">
+                        <li>Plausibilisierung von Falschfahrten (<a href="https://patentimages.storage.googleapis.com/37/6c/9f/fc2335984dc0b4/DE102020201362A1.pdf" target="_blank">siehe Patent</a>)
+                        </li>
+                        <li>
+                            Automatisiertes Labeln (Machine Learning) Millionen aufgezeichneter Fahrten
+                        </li>
+                        <li>Grafana</li>
+                        <li>Splunk</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 class="r-fit-text" style="margin-top: 100px">VOITH</h2>
+                </section>
+                <section style="height: 600px" data-background-image="/assets/Bosch_Farben.png" data-background-opacity="0.2">
+                    <h2 style="margin-top: 0px; font-size: 30px;">
+                        OnEfficiency.Strength
+                    </h2>
+                    <ul style="font-size: 20px;">
+                        <li>Entwicklung & Applikation von Model Predictive Control</li>
+                        <li>Datenanalyse und Entwicklung von Virtuellen Sensoren (Machine Learning)</li>
+                        <li>Datenbasierte Verfügbarkeits- und Leistungsoptimierung von Kundenmaschinen</li>
+                        <li>Anomalieerkennung</li>
+                        <li>Planung und Abstimmung von Projekten im Kontext OnEfficiency (Model Predictive Control)</li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <script src="dist/reveal.js "></script>
+    <script src="plugin/notes/notes.js "></script>
+    <script src="plugin/markdown/markdown.js "></script>
+    <script src="plugin/highlight/highlight.js "></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+</body>
+
 </html>
